@@ -10,13 +10,7 @@ Specifically, I will focus on three questions:
 2. Over the same period, has surface chlorophyll-a (a proxy for phytoplankton) increased or decreased, and does this change vary across space?
 3. On year-to-year time scales, do warmer conditions tend to be associated with lower chlorophyll, and is this relationship influenced by ENSO?
 
-My hypothesis is that the ocean surface in this region has become warmer over time, and that in some areas this warming may be linked to lower surface chlorophyll. I also expect that ENSO variability may play a role in shaping short-term changes in both temperature and chlorophyll.
-
----
-
 ## Datasets
-
-I use three publicly available datasets that represent ocean temperature, biological productivity, and large-scale climate variability.
 
 - **Sea surface temperature (SST)**  
   I use monthly SST data from the NOAA Extended Reconstructed Sea Surface Temperature (ERSST v5) dataset. This dataset provides global SST fields on a regular grid and is widely used for studying long-term ocean temperature variability and trends. In this project, I use it to examine large-scale temperature changes in the California Current region.
@@ -27,10 +21,6 @@ I use three publicly available datasets that represent ocean temperature, biolog
 - **ENSO index (Niño 3.4)**  
   I use the Niño 3.4 SST anomaly index from NOAA to represent large-scale climate variability associated with El Niño and La Niña. This dataset is used to explore whether interannual changes in SST and chlorophyll are related to ENSO conditions.
 
-All datasets are accessed programmatically in the Jupyter notebook and processed using Python libraries such as `xarray` and `pandas`.
-
----
-
 ## Study region
 
 The analysis focuses on the California Current coastal region, defined approximately as:
@@ -40,8 +30,6 @@ The analysis focuses on the California Current coastal region, defined approxima
 
 This region captures the eastern boundary current system along the U.S. West Coast, where coastal upwelling strongly influences ocean temperature and biological productivity.
 
----
-
-## Planned analysis (three-sentence summary)
+## Planned analysis
 
 First, I extract the California Current region from each dataset and compute regional mean time series of SST and chlorophyll over the satellite era (approximately 2002–present). Then, I calculate spatial patterns of long-term trends in both SST and chlorophyll to identify where warming and productivity changes are most pronounced. Finally, I analyze interannual variability by comparing SST and chlorophyll anomalies and examining their relationship with the Niño 3.4 index to assess the role of ENSO.
