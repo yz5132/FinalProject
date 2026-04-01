@@ -10,6 +10,8 @@ Specifically, I will focus on three questions:
 2. Over the same period, has surface chlorophyll-a (a proxy for phytoplankton) increased or decreased, and does this change vary across space?
 3. On year-to-year time scales, do warmer conditions tend to be associated with lower chlorophyll, and is this relationship influenced by ENSO?
 
+My hypothesis is that the ocean surface in this region has become warmer over time, and that in some areas this warming may be linked to lower surface chlorophyll. I also expect that ENSO variability may play a role in shaping short-term changes in both temperature and chlorophyll.
+
 ## Datasets
 
 - **Sea surface temperature (SST)**  
