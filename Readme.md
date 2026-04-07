@@ -15,23 +15,21 @@ My hypothesis is that the ocean surface in this region has become warmer over ti
 ## Datasets
 
 - **Sea surface temperature (SST)**  
-  I use monthly SST data from the NOAA Extended Reconstructed Sea Surface Temperature (ERSST v5) dataset. This dataset provides global SST fields on a regular grid and is widely used for studying long-term ocean temperature variability and trends. In this project, I use it to examine large-scale temperature changes in the California Current region.
+  I use [monthly SST data](https://psl.noaa.gov/thredds/catalog/Datasets/noaa.ersst.v5/catalog.html?dataset=Datasets/noaa.ersst.v5/sst.mnmean.nc) from the NOAA Extended Reconstructed Sea Surface Temperature (ERSST v5) dataset. This dataset provides global SST fields on a regular grid and is widely used for studying long-term ocean temperature variability and trends. In this project, I use it to examine large-scale temperature changes in the California Current region.
 
 - **Chlorophyll-a (ocean productivity)**  
-  I use monthly satellite-derived chlorophyll-a data from MODIS Aqua Level-3 mapped products (4 km resolution), accessed through the APDRC data server. Chlorophyll-a is used as a proxy for phytoplankton biomass and provides spatially detailed information about surface ocean productivity.
+  I use [monthly satellite-derived chlorophyll-a data](https://apdrc.soest.hawaii.edu/dods/public_data/satellite_product/MODIS_Aqua/chla_mapped_mon_4km.info) from MODIS Aqua Level-3 mapped products (4 km resolution), accessed through the APDRC data server. Chlorophyll-a is used as a proxy for phytoplankton biomass and provides spatially detailed information about surface ocean productivity.
 
 - **ENSO index (Niño 3.4)**  
-  I use the Niño 3.4 SST anomaly index from NOAA to represent large-scale climate variability associated with El Niño and La Niña. This dataset is used to explore whether interannual changes in SST and chlorophyll are related to ENSO conditions.
+  I use [the Niño 3.4 SST anomaly index](https://psl.noaa.gov/data/timeseries/month/Nino34/) from NOAA to represent large-scale climate variability associated with El Niño and La Niña. This dataset is used to explore whether interannual changes in SST and chlorophyll are related to ENSO conditions.
 
 ## Study region
 
 The analysis focuses on the California Current coastal region, defined approximately as:
 
 - Latitude: 30°N to 46°N  
-- Longitude: 130°W to 116°W  
-
-This region captures the eastern boundary current system along the U.S. West Coast, where coastal upwelling strongly influences ocean temperature and biological productivity.
+- Longitude: 130°W to 116°W 
 
 ## Planned analysis
 
-First, I extract the California Current region from each dataset and compute regional mean time series of SST and chlorophyll over the satellite era (approximately 2002–present). Then, I calculate spatial patterns of long-term trends in both SST and chlorophyll to identify where warming and productivity changes are most pronounced. Finally, I analyze interannual variability by comparing SST and chlorophyll anomalies and examining their relationship with the Niño 3.4 index to assess the role of ENSO.
+First, I will extract the California Current region from each dataset and compute a regional mean time series of SST and chlorophyll over the satellite era (approximately 2002–present). Then, I will calculate spatial patterns of long-term trends in both SST and chlorophyll to identify where warming and productivity changes are most pronounced. Finally, I will analyze interannual variability by comparing SST and chlorophyll anomalies and examining their relationship with the Niño 3.4 index to assess the role of ENSO.
